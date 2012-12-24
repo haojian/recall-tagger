@@ -1,0 +1,69 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/btn_notviewed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="notviewed_btn_onClick"
+        android:text="Not Viewed" />
+
+    <Button
+        android:id="@+id/btn_viewed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Viewed" 
+        android:onClick="viewed_btn_onClick"/>
+
+   <Button
+        android:id="@+id/btn_evaluate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Evaluate" 
+        android:onClick="evaluate_btn_onClick"/>
+    
+    <TextView
+        android:id="@+id/hint_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading, please wait . . ."
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ffffff" />
+   <TextView
+        android:id="@+id/hint_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="　　　　　　　　　　　　　"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ffffff" />
+    <Button
+        android:id="@+id/btn_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip" 
+        android:onClick="skip_btn_onClick"/>
+    </TableRow>
+
+    <ProgressBar
+        android:id="@+id/webviewer_progressbar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:padding="2dip" />
+
+    <WebView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/webViewer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    
+</TableLayout>

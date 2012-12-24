@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/irlab-emory/!svn/ver/113/android/recall-tagger/src/emory/recall
+END
+Recall_Httpclient.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/irlab-emory/!svn/ver/113/android/recall-tagger/src/emory/recall/Recall_Httpclient.java
+END
+HistoryEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/irlab-emory/!svn/ver/113/android/recall-tagger/src/emory/recall/HistoryEntry.java
+END
+StrUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/irlab-emory/!svn/ver/113/android/recall-tagger/src/emory/recall/StrUtil.java
+END
+GoogleResultParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/irlab-emory/!svn/ver/113/android/recall-tagger/src/emory/recall/GoogleResultParser.java
+END
+Recall_taggerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/irlab-emory/!svn/ver/113/android/recall-tagger/src/emory/recall/Recall_taggerActivity.java
+END
+EventMonitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/irlab-emory/!svn/ver/113/android/recall-tagger/src/emory/recall/EventMonitor.java
+END
+ParsedResultCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/irlab-emory/!svn/ver/113/android/recall-tagger/src/emory/recall/ParsedResultCollection.java
+END
+SDCardOperator.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/irlab-emory/!svn/ver/113/android/recall-tagger/src/emory/recall/SDCardOperator.java
+END
